@@ -1,10 +1,10 @@
 # Anureet Kaur Bhatia — Portfolio
 
-A responsive, single-page portfolio for Anureet Kaur Bhatia, an Artificial Intelligence and Data Science student.
+A responsive portfolio website for Anureet Kaur Bhatia, an Artificial Intelligence and Data Science student focused on data analytics and machine learning.
 
 ## Preview locally
 
-Open `index.html` in a browser. The portfolio is self-contained and does not require a build step or package installation.
+Open `index.html` in a browser. The main portfolio and detail pages are static and do not require a build step or package installation. Project and skill details are also catalogued in `projects/projects.json` and `skills.json`.
 
 ## Deploy
 

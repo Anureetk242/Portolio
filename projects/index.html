@@ -1,100 +1,75 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link id='favicon' rel="shortcut icon" href="/assets/images/favicon.png" type="image/x-png">
-    <title>Projects | Portfolio Jigar Sable</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Data analytics, machine learning, and AI projects by Anureet Kaur Bhatia.">
+  <title>Projects | Anureet Kaur Bhatia</title>
+  <style>
+    :root{color-scheme:dark;--bg:#0b1020;--card:#151e32;--text:#f5f7ff;--muted:#aab5ce;--accent:#a5f3e4;--line:#27324a}
+    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 system-ui,sans-serif}
+    main{width:min(1000px,91%);margin:auto}.nav,footer{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;padding:22px 0;border-bottom:1px solid var(--line)}
+    a{color:var(--accent);text-decoration:none}.brand{font-weight:800}.intro{padding:55px 0 25px}.eyebrow{color:var(--accent);text-transform:uppercase;letter-spacing:.16em;font-size:.78rem;font-weight:700}
+    h1{font-size:clamp(2rem,5vw,3.4rem);line-height:1.1;margin:8px 0} .intro p,.card p{color:var(--muted)}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:16px;padding:20px 0 55px}
+    .card{background:linear-gradient(145deg,#151e32,#101727);border:1px solid var(--line);border-radius:18px;padding:23px}
+    .tag{color:var(--accent);font-size:.8rem;font-weight:700}.card h2{font-size:1.2rem;margin:10px 0}
+    .tech{font-size:.85rem;color:#d8e0f6}.card a{display:inline-block;margin-top:12px}
+    footer{border-top:1px solid var(--line);border-bottom:0;color:var(--muted);font-size:.85rem}
+  </style>
 </head>
-<body oncontextmenu="return false">
-
-<!-- navbar starts -->
-<header>
-        <a href="/" class="logo"><i class="fab fa-node-js"></i> Jigar</a>
-
-        <div id="menu" class="fas fa-bars"></div>
-        <nav class="navbar">
-            <ul>
-            <li><a href="/#home">Home</a></li>
-            <li><a href="/#about">About</a></li>
-            <li><a href="/#skills">Skills</a></li>
-            <li><a href="/#education">Education</a></li>
-            <li><a class="active" href="/#work">Work</a></li>
-            <li><a href="/#experience">Experience</a></li>
-            <li><a href="/#contact">Contact</a></li>
-            </ul>
-        </nav>
-</header>
-<!-- navbar ends -->
-
-<!-- work project section starts -->
-<section class="work" id="work">
-
-  <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
-  
-  <div id="filters" class="button-group">
-    <button class="btn is-checked" data-filter="*">All Projects</button>
-    <button class="btn" data-filter=".mern">MERN Stack</button>
-    <button class="btn" data-filter=".lamp">LAMP Stack</button>
-    <button class="btn" data-filter=".basicweb">Basic Web</button>
-    <button class="btn" data-filter=".android">Android App</button>
-  </div>
-
-  <div class="box-container">
-
-    <!-- <div class="box tilt">
-      <img src="/assets/images/projects/agecalc.PNG" alt="" />
-      <div class="content">
-        <div class="tag">
-        <h3>Portfolio Website</h3>
-        </div>
-        <div class="desc">
-          <p>Personal portfolio website. Don't need much info about it, just scroll down. You're here only!</p>
-          <div class="btns">
-            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="#" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
-          </div>
-        </div>
-      </div>
-    </div> -->   
-
-  </div>
-
-  <div class="backbtn">
-    <a href="/#work" class="btn">
-        <i class="fas fa-arrow-left"></i>
-        <span>Back to Home</span>
-  </a>
-  </div>
-
-</section>
-<!-- work project section ends -->
-
-<!-- scroll top btn -->
-<a href="#work" class="fas fa-angle-up" id="scroll-top"></a>
-<!-- scroll back to top -->
-
-
-<!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
-<!-- jquery cdn -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-<!-- vanilla tilt.js links -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-<!-- scroll reveal anim -->
-<script src="https://unpkg.com/scrollreveal"></script>
-
-<!-- isotope filter plugin cdn -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-<!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
-
-<script src="./script.js"></script>
-
+<body>
+  <main>
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="../index.html">Anureet Kaur Bhatia</a>
+      <a href="../index.html#projects">Home portfolio</a>
+    </nav>
+    <header class="intro">
+      <div class="eyebrow">Selected work</div>
+      <h1>Data, machine learning &amp; AI projects</h1>
+      <p>Project descriptions reflect the information currently available. Verified results and metrics can be added as they are documented.</p>
+    </header>
+    <section class="grid" aria-label="Projects">
+      <article class="card">
+        <div class="tag">Data Analytics</div>
+        <h2>Punjab Education Data Analytics</h2>
+        <p>Explores Punjab education data to identify patterns, compare indicators, and communicate insights through data visualisations.</p>
+        <div class="tech">Data analytics · Education indicators · Data exploration · Visualisation</div>
+        <a href="https://github.com/Anureetk242/Punjab-School-Enrollment" target="_blank" rel="noreferrer">View repository ↗</a>
+      </article>
+      <article class="card">
+        <div class="tag">Machine Learning</div>
+        <h2>Iris Prediction Model</h2>
+        <p>Uses Python and machine-learning classification to predict Iris flower classes from measured features.</p>
+        <div class="tech">Python · Machine Learning</div>
+      </article>
+      <article class="card">
+        <div class="tag">Computer Vision</div>
+        <h2>Pneumonia Detection using CNN</h2>
+        <p>An image-classification project using a convolutional neural network.</p>
+        <div class="tech">CNN · Deep Learning · Image Classification</div>
+      </article>
+      <article class="card">
+        <div class="tag">Machine Learning</div>
+        <h2>Spotify Song Classification</h2>
+        <p>Explores how song data can be used to group or predict music categories.</p>
+        <div class="tech">Python · Machine Learning</div>
+      </article>
+      <article class="card">
+        <div class="tag">Computer Vision</div>
+        <h2>Satellite Crop Classification</h2>
+        <p>A deep-learning notebook using satellite imagery to classify crop types.</p>
+        <div class="tech">Python · CNN · Deep Learning · Image Classification</div>
+        <a href="https://github.com/Anureetk242/multicrop/blob/main/satellite_crop_classifier_FIXED.ipynb" target="_blank" rel="noreferrer">View project notebook ↗</a>
+      </article>
+      <article class="card">
+        <div class="tag">Innovation</div>
+        <h2>Fuel Overflow Detection System</h2>
+        <p>An invention concept intended to detect fuel overflow and support safer refuelling.</p>
+        <div class="tech">Prototype concept · Patent listed in resume</div>
+      </article>
+    </section>
+    <footer><span>© 2026 Anureet Kaur Bhatia</span><a href="../index.html#contact">Contact</a></footer>
+  </main>
 </body>
 </html>
